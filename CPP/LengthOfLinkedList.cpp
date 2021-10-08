@@ -1,8 +1,8 @@
-
+// including the header file
 #include <bits/stdc++.h>
 using namespace std;
  
-/* Link list node */
+/* Link list node with next node pointer */
 class Node
 {
     public:
