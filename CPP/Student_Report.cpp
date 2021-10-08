@@ -12,6 +12,8 @@
 //                   CLASS USED IN PROJECT
 //****************************************************************
 
+
+//  student class initiated with various data type
 class student
 {
     int rollno;
@@ -33,6 +35,7 @@ class student
             grade='F';
     }
 public:
+    // getting the values and calculating total numbers
     void getdata()
     {
         cout<<"\nEnter The roll number of student ";
@@ -53,6 +56,7 @@ public:
     }
 
     void showdata()
+        // Showing the data 
     {
         cout<<"\nRoll number of student : "<<rollno;
         cout<<"\nName of student : "<<name;
